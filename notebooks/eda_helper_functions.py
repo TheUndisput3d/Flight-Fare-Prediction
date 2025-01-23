@@ -89,6 +89,7 @@ def correlation_heatmap(data,
 # gives detailed summary of numeric features
 def num_summary(data, var):
   import warnings
+  
   warnings.filterwarnings("ignore")
 
   # title
